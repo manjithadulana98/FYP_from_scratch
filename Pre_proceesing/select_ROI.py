@@ -1,8 +1,10 @@
 import cv2
 
+
+file_name  = '4L_u_1'
 # original image directory
-data_path_img  = 'C:\\FYP\\DeepGlobe-Road-Extraction-Challenge\\dataset\\train\\mask\\1L_l_1_vessels.png'
-original_path_img = 'C:\\FYP\\DeepGlobe-Road-Extraction-Challenge\\dataset\\train\\image\\1L_l_1.jpg'
+data_path_img  = 'C:\\FYP\\DeepGlobe-Road-Extraction-Challenge\\dataset\\train\\mask\\' + file_name + '_vessels.png'
+original_path_img = 'C:\\FYP\\DeepGlobe-Road-Extraction-Challenge\\dataset\\train\\image\\'+ file_name + '.jpg'
 
 
 # saving directory 
